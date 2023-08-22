@@ -1,0 +1,17 @@
+The program is a console password manager.
+The principle of operation is that the program creates an xmls table,
+where the sheet name is the account name, and the cells are the login, password and additional information,
+then encrypts it with the encryption key you specify.
+Then when you need a password for any account,
+you run the program, open the password database with
+your encryption key, and find out the password for the required account.
+
+The python libraries are used (simple-crypt, stdiomask, openpyxl)
+
+So far, one of the shortcomings in the operation of the program is when working with the password database
+You have to overwrite and delete files several times.
+
+The program is written for Linux and Android
+
+STRONGLY NOT RECOMMENDED FOR WINDOWS
+for security reasons!
